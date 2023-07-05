@@ -1,0 +1,80 @@
+.outer-container{
+    margin-top: 80px;
+}
+.outer-container > .container > #row{
+    border: 1px solid #c7bcbb;
+    padding: 10px;
+}
+#flight-details-container {
+    margin-top: 20px;
+    font-size: small;
+  }
+  
+  .flight-container {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    white-space: pre-line; 
+  }
+
+  .flight-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* CSS for individual header and flight data divs */
+  .flight-header div,
+  .flight-row div {
+    flex-basis: 20%;
+  }
+  
+  .flight-info {
+    flex: 1;
+  }
+  
+  .flight-info .airport {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .flight-info .code {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .flight-time {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .flight-price {
+    flex: 1;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .book-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .book-button:hover {
+    background-color: #e64a19;
+  }
+  p {
+    padding: 10px;
+}
